@@ -13,6 +13,13 @@ public class MainActivity extends AppCompatActivity {
 
         TextView txv = (TextView) findViewById(R.id.txv);
         txv.setText("Hello CYiang");
+        TestDev();
 
     }
+
+    public void TestDev(){
+        TextView txv = (TextView) findViewById(R.id.txv);
+        txv.setText("Dev分支");
+    }
+
 }
